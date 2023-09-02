@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Blackout;
+  src: url(./assets/fonts/BLACKOUT.TTF);
+}
+
+@font-face {
+  font-family: Cube;
+  src: url(./assets/fonts/Cube.ttf);
+}
+
+body {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 700;
+  
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes moveTextContent-1 {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes moveTextContent-2 {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
