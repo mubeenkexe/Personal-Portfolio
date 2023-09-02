@@ -15,7 +15,7 @@ export const theme = {
     },
 
     backgroundImage: {
-      'image': "url('./src/assets/imgs/bg.png')",
+      'image': "url('./assets/imgs/bg.png')",
     },
 
     keyframes: {
