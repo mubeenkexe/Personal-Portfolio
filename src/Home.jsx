@@ -1,5 +1,6 @@
 import Header from "./components/Header.component";
 import ArrowPng from "./assets/imgs/arrow.png"
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -34,26 +35,31 @@ const Home = () => {
 
           </div>
 
-          <div className="w-fit h-full absolute flex flex-col items-center ">
+          <div className="h-screen absolute flex items-center">
 
-            <p className="hidden text-center w-4/5 m-auto text-white font-normal translate-y-44 text-xxm">
-              Hey there! I'm Mubeen K., a dedicated Graphic Designer and Web Developer on a mission to bring imagination to life. Whether it's crafting visually stunning logos or creating user-friendly websites, I merge artistic creativity with technical expertise to leave a lasting impact. With a passion for React, HTML, CSS, and JavaScript, I'm all about pushing the boundaries of design and functionality. Beyond coding, you'll find me immersed in Adobe XD, Illustrator, Photoshop, and Premiere Pro, weaving a blend of aesthetics and innovation. Curious to know more? Let's dive into my world of creativity!
-            </p>
+            <div className="translate-y-48 space-y-6">
 
-            <a href="aboutme" className="flex items-center border border-black text-black -translate-y-16">
-              <span className="px-3">About Me</span>
-              <div className="w-auto bg-black flex items-center justify-center">
+              <p className="text-center w-4/5 md:w-11/12 m-auto text-white font-normal text-xxm md:text-xs ">
+                Hey there! I'm Mubeen K., a dedicated Graphic Designer and Web Developer on a mission to bring imagination to life. Whether it's crafting visually stunning logos or creating user-friendly websites, I merge artistic creativity with technical expertise to leave a lasting impact. With a passion for React, HTML, CSS, and JavaScript, I'm all about pushing the boundaries of design and functionality. Beyond coding, you'll find me immersed in Adobe XD, Illustrator, Photoshop, and Premiere Pro, weaving a blend of aesthetics and innovation. Curious to know more? Let's dive into my world of creativity!
+              </p>
 
-                <img
-                  src={ArrowPng}
-                  alt="Arrow"
-                  className="w-8"
-                />
+              <Link to="aboutme" className="flex w-fit m-auto items-center border border-black text-black">
+                <span className="px-3">About Me</span>
+                <div className="w-auto bg-black flex items-center justify-center">
 
-              </div>
-            </a>
+                  <img
+                    src={ArrowPng}
+                    alt="Arrow"
+                    className="w-8"
+                  />
+
+                </div>
+              </Link>
+
+            </div>
 
           </div>
+
         </div>
       </div>
     </>
