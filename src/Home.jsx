@@ -13,10 +13,10 @@ const Home = () => {
 
             <div className="flex items-center h-full">
 
-              <h1 className="font-cube text-5xl whitespace-nowrap animate-moveTextContent-1 text-white -z-10 font-normal">
+              <h1 className="font-cube text-4xl whitespace-nowrap animate-moveTextContent-1 text-white -z-10 font-normal">
                 mubeen rehman mubeen rehman
               </h1>
-              <h1 className="font-cube text-5xl whitespace-nowrap animate-moveTextContent-2 text-white -z-10 font-normal">
+              <h1 className="font-cube text-4xl whitespace-nowrap animate-moveTextContent-2 text-white -z-10 font-normal">
                 mubeen rehman mubeen rehman
               </h1>
 
