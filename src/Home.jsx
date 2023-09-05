@@ -13,10 +13,10 @@ const Home = () => {
 
             <div className="flex content-center h-fit">
 
-              <h1 className="font-cube text-4xl whitespace-nowrap animate-moveTextContent-1 text-white font-normal">
+              <h1 className="font-cube text-4xl md:text-5xl whitespace-nowrap animate-moveTextContent-1 text-white font-normal">
                 mubeen rehman mubeen rehman
               </h1>
-              <h1 className="font-cube text-4xl whitespace-nowrap animate-moveTextContent-2 text-white font-normal">
+              <h1 className="font-cube text-4xl md:text-5xl whitespace-nowrap animate-moveTextContent-2 text-white font-normal">
                 mubeen rehman mubeen rehman
               </h1>
 
@@ -26,11 +26,11 @@ const Home = () => {
 
           <div className="m-auto relative">
 
-            <h2 className="hidden font-ibmplex font-bold text-sm text-white text-center w-full">Meet</h2>
+            <h2 className="font-ibmplex font-bold text-sm md:text-xl tracking-widest text-white text-center w-full">Meet</h2>
 
             <h1 className="text-9xl font-blackout md:text-12xl font-normal">mUbeeN</h1>
 
-            <h2 className="hidden font-ibmplex font-bold text-sm text-white text-center w-full">Graphic Designer and Web Developer</h2>
+            <h2 className="font-ibmplex font-bold text-sm md:text-xl tracking-widest text-white text-center w-full">Graphic Designer and Web Developer</h2>
 
           </div>
 
