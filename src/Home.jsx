@@ -11,12 +11,12 @@ const Home = () => {
 
           <div className="w-full h-full overflow-hidden absolute z-0">
 
-            <div className="flex items-center h-full">
+            <div className="flex content-center items-center h-full">
 
-              <h1 className="bg-green-900 font-cube text-4xl whitespace-nowrap animate-moveTextContent-1 text-white -z-10 font-normal">
+              <h1 className="m-auto bg-green-900 font-cube text-4xl whitespace-nowrap animate-moveTextContent-1 text-white -z-10 font-normal">
                 mubeen rehman mubeen rehman
               </h1>
-              <h1 className="bg-green-900 font-cube text-4xl whitespace-nowrap animate-moveTextContent-2 text-white -z-10 font-normal">
+              <h1 className="m-auto bg-green-900 font-cube text-4xl whitespace-nowrap animate-moveTextContent-2 text-white -z-10 font-normal">
                 mubeen rehman mubeen rehman
               </h1>
 
