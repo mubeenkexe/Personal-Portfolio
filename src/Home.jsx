@@ -29,7 +29,7 @@ const Home = () => {
 
             <h2 className="font-ibmplex font-bold text-sm md:text-xl tracking-widest text-white text-center w-full">Meet</h2>
 
-            <h1 className="text-9xl font-blackout md:text-12xl font-normal">mUbeeN</h1>
+            <h1 className="text-9xl font-blackout md:text-12xl font-normal text-center">mUbeeN</h1>
 
             <h2 className="font-ibmplex font-bold text-sm md:text-xl tracking-widest text-white text-center w-full">Graphic Designer and Web Developer</h2>
 
