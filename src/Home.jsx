@@ -26,11 +26,11 @@ const Home = () => {
 
           <div className="m-auto relative">
 
-            <h2 className="font-ibmplex font-bold text-sm text-white text-center w-full">Meet</h2>
+            <h2 className="hidden font-ibmplex font-bold text-sm text-white text-center w-full">Meet</h2>
 
             <h1 className="text-9xl font-blackout md:text-12xl font-normal">mUbeeN</h1>
 
-            <h2 className="font-ibmplex font-bold text-sm text-white text-center w-full">Graphic Designer and Web Developer</h2>
+            <h2 className="hidden font-ibmplex font-bold text-sm text-white text-center w-full">Graphic Designer and Web Developer</h2>
 
           </div>
 
