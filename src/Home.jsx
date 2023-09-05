@@ -9,7 +9,7 @@ const Home = () => {
 
         <div className="flex flex-col content-center items-center h-screen">
 
-          <div className="w-full h-full overflow-hidden absolute z-0 flex content-center">
+          <div className="w-full h-full overflow-hidden absolute z-0 flex items-center">
 
             <div className="flex content-center items-center h-full">
 
