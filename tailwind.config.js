@@ -10,6 +10,7 @@ export const theme = {
     },
 
     fontSize: {
+      'xxm': '0.500rem',
       'xm': '0.625rem',
       '12xl': '12rem',
     },
