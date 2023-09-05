@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <>
       <div className="w-full h-screen bg-image bg-cover bg-no-repeat rounded-md">
-      <Header />
+        <Header />
 
         <div className="flex flex-col content-center items-center h-screen">
 
@@ -13,10 +13,10 @@ const Home = () => {
 
             <div className="flex items-center h-full">
 
-              <h1 className="font-cube text-4xl whitespace-nowrap animate-moveTextContent-1 text-white -z-10 font-normal">
+              <h1 className="font-cube text-5xl whitespace-nowrap animate-moveTextContent-1 text-white -z-10 font-normal">
                 mubeen rehman mubeen rehman
               </h1>
-              <h1 className="font-cube text-4xl whitespace-nowrap animate-moveTextContent-2 text-white -z-10 font-normal">
+              <h1 className="font-cube text-5xl whitespace-nowrap animate-moveTextContent-2 text-white -z-10 font-normal">
                 mubeen rehman mubeen rehman
               </h1>
 
@@ -26,17 +26,17 @@ const Home = () => {
 
           <div className="m-auto relative">
 
-            <h2 className="absolute font-ibmplex font-bold text-sm text-white text-center w-full">Meet</h2>
-            <br />
+            <h2 className="font-ibmplex font-bold text-sm text-white text-center w-full">Meet</h2>
+
             <h1 className="text-9xl font-blackout md:text-12xl font-normal">mUbeeN</h1>
 
-            <h2 className="absolute font-ibmplex font-bold text-sm text-white text-center w-full">Graphic Designer and Web Developer</h2>
+            <h2 className="font-ibmplex font-bold text-sm text-white text-center w-full">Graphic Designer and Web Developer</h2>
 
           </div>
 
           <div className="w-fit h-full absolute flex flex-col items-center ">
 
-            <p className="text-center w-4/5 m-auto text-white font-normal translate-y-44 text-xxm">
+            <p className="hidden text-center w-4/5 m-auto text-white font-normal translate-y-44 text-xxm">
               Hey there! I'm Mubeen K., a dedicated Graphic Designer and Web Developer on a mission to bring imagination to life. Whether it's crafting visually stunning logos or creating user-friendly websites, I merge artistic creativity with technical expertise to leave a lasting impact. With a passion for React, HTML, CSS, and JavaScript, I'm all about pushing the boundaries of design and functionality. Beyond coding, you'll find me immersed in Adobe XD, Illustrator, Photoshop, and Premiere Pro, weaving a blend of aesthetics and innovation. Curious to know more? Let's dive into my world of creativity!
             </p>
 
